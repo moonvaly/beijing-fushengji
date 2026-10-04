@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+dist/
+beijing_fushengji/game/saves/
+beijing_fushengji/game/cache/
+beijing_fushengji/log.txt
+beijing_fushengji/errors.txt
+beijing_fushengji/traceback.txt
+beijing_fushengji/files.txt
+beijing_fushengji/image_cache.txt
+beijing_fushengji/save_dump.txt
+beijing_fushengji/game/**/*.bak
+tools/assets/_download/
+tools/assets/job_state.json
+.DS_Store

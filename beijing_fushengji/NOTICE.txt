@@ -1,0 +1,17 @@
+北京浮生记
+==========
+
+This program is a derivative work of 《北京浮生记》
+(Beijing Fushengji / Beijing Hell), originally written by 郭祥昊
+(Guo Xianghao), 2000–2001.
+
+Original work: GNU General Public License version 2
+This remake: GNU General Public License version 2
+
+See LICENSE for the full license text.
+
+Credits
+-------
+- Original game: 郭祥昊 (Guo Xianghao)
+- Ren'Py 8.5 remake: moonvaly
+- Engine: Ren'Py (https://www.renpy.org/), MIT-style license

@@ -1,0 +1,8 @@
+{
+    "display_name": "北京浮生记",
+    "force_recompile": true,
+    "build_update": false,
+    "packages": ["mac", "pc"],
+    "add_from": true,
+    "renamed_all": true
+}

@@ -1,0 +1,217 @@
+# Dreamina Canvas asset list. Paths are relative to beijing_fushengji/game/images/
+# model/resolution must match `dreamina-canvas model list --type image`
+style_file: tools/assets/style.txt
+out_dir: beijing_fushengji/game/images
+model: seedream_5.0_lite
+resolution: 2K
+
+items:
+  - id: hero_normal
+    file: hero normal.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art young rural Chinese man around 25 in 1998 Beijing, crew cut, washed blue jacket, canvas bag, standing three-quarter view, transparent-looking dark background, character sprite sheet style, slightly tired hopeful face"
+
+  - id: bg_market_station
+    file: bg market_station.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Beijing Railway Station plaza 1998, huge station building, crowds with canvas bags, underground passage entrance, dusty evening light, black-market stalls"
+
+  - id: bg_market_east
+    file: bg market_east.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Jianguomen overpass 1998 Beijing, flyover concrete, street stalls under the bridge, yellow dust, neon shop signs without readable text"
+
+  - id: bg_market_north
+    file: bg market_north.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Xizhimen city wall remnant 1998 Beijing, wind and sand, roasted sweet potato stall, pirate CD boxes, bicycle flood"
+
+  - id: bg_market_inner
+    file: bg market_inner.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Chongwenmen old Beijing street 1998, red-armband old ladies, department store, alley black market"
+
+  - id: bg_market_northeast
+    file: bg market_northeast.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Dongzhimen long-distance bus station 1998, coaches, fake cigarette cartons, northern travelers"
+
+  - id: bg_market_center
+    file: bg market_center.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Fuxingmen underground passage 1998 Beijing, tiled tunnel, electronics hawkers, fluorescent lights"
+
+  - id: bg_market_west
+    file: bg market_west.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art western Beijing suburb 1998 Gongzhufen, military coats, smuggled-car ads on poles, dusty road"
+
+  - id: bg_market_south
+    file: bg market_south.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Yongdingmen gate and dirt market 1998, city wall, mixed cargo crates, evening haze"
+
+  - id: bg_market_haidian
+    file: bg market_haidian.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Zhongguancun Haidian street 1998, electronics shops, pirate VCD stalls in a row, students"
+
+  - id: bg_market_ring
+    file: bg market_ring.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art Beijing 3rd ring overpass 1998, traffic jam, car-window hawkers, sodium lights"
+
+  - id: bg_hospital
+    file: bg hospital.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art 1998 Beijing public hospital corridor, green walls, wooden benches, tired patients, dim lamps"
+
+  - id: bg_bank
+    file: bg bank.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art 1998 Beijing bank lobby, iron bars, wooden counters, analog clocks, green banker's lamps"
+
+  - id: npc_chief
+    file: npc chief.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art middle-aged rural Chinese village chief 1998, padded army-green coat, thick eyebrows, sly smile, half-body sprite, dark background"
+
+  - id: npc_doctor
+    file: npc doctor.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art 1998 Beijing hospital doctor, white coat, round glasses, half-body sprite, dark background"
+
+  - id: npc_nurse
+    file: npc nurse.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art 1998 Beijing young nurse, white cap, pink-white uniform, polite smile, half-body sprite, dark background"
+
+  - id: good_cigarette
+    file: good cigarette.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of imported cigarette carton 1998, small square still life, stall lighting"
+
+  - id: good_car
+    file: good car.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of a 1990s smuggled sedan key and toy car, small square still life"
+
+  - id: good_cd
+    file: good cd.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of stacked pirate VCD discs and game boxes, small square still life"
+
+  - id: good_alcohol
+    file: good alcohol.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of cheap white liquor bottles with fake labels, small square still life"
+
+  - id: good_baby
+    file: good baby.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of a 1990s pulp magazine with a tasteful closed cover silhouette, no nudity, small square still life"
+
+  - id: good_toy
+    file: good toy.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of imported plastic robot toy 1998, small square still life"
+
+  - id: good_phones
+    file: good phones.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of grey 1998 brick mobile phone with no brand marks, small square still life"
+
+  - id: good_cosmetic
+    file: good cosmetic.png
+    ratio: "1:1"
+    kind: icon
+    prompt: "pixel-art icon of cheap cosmetic bottles and compact powder, small square still life"
+
+  - id: ui_main_menu
+    file: ../gui/main_menu.png
+    ratio: "16:9"
+    kind: ui
+    prompt: "pixel-art 1998 Beijing dusk skyline with subway entrance and title-card empty sky, cinematic wide shot, dusty gold light"
+
+  - id: bg_post
+    file: bg post.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art 1998 Beijing post office interior, wooden counter, green mailbox, queue of migrants sending money home, analog scale, dusty lamps"
+
+  - id: bg_wangba
+    file: bg wangba.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art 1998 Beijing internet cafe, rows of bulky CRT monitors, blue glow, cigarette smoke, young men in jackets, snack bags"
+
+  - id: bg_house
+    file: bg house.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art 1998 Beijing rental agency office, fake luxury sofa, wall of apartment photos, tea cups, dusty gold light"
+
+  - id: bg_ending_death
+    file: bg ending_death.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art 1998 Beijing night street, empty hutong, fallen diary on wet pavement, dim sodium lamp, somber, no corpse shown"
+
+  - id: bg_ending_home
+    file: bg ending_home.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art train leaving Beijing station at dusk 1998, warm dusty gold sky, packed platform, hopeful rural return"
+
+  - id: bg_map_beijing
+    file: bg map_beijing.png
+    ratio: "16:9"
+    kind: background
+    prompt: "pixel-art schematic map of 1998 Beijing subway loop, stylized stations as colored dots, hutong texture background, no readable letters"
+
+  - id: npc_teller
+    file: npc teller.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art 1998 Beijing bank teller woman, green vest over white shirt, hair in bun, polite tired smile, half-body sprite, dark background"
+
+  - id: npc_agent
+    file: npc agent.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art 1998 Beijing house agent man, cheap suit, slick hair, salesman grin, half-body sprite, dark background"
+
+  - id: npc_netbar
+    file: npc netbar.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art 1998 Beijing internet-cafe clerk, oversized jacket, dyed hair, bored face, half-body sprite, dark background"
+
+  - id: npc_xiebufeng
+    file: npc xiebufeng.png
+    ratio: "3:4"
+    kind: character
+    prompt: "pixel-art 1998 Chinese pop celebrity parody, sunglasses, shiny jacket, flashy smile, half-body sprite, dark background, satirical"

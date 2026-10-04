@@ -1,0 +1,353 @@
+[
+  {
+    "id": "toy_demand",
+    "type": "price",
+    "weight": 170,
+    "goods": "TOY",
+    "effects": {"multiply": 2},
+    "speaker": "news",
+    "text": "专家提议提高大学生“动手素质”，进口玩具颇受欢迎!"
+  },
+  {
+    "id": "alcohol_cure",
+    "type": "price",
+    "weight": 139,
+    "goods": "ALCOHOL",
+    "effects": {"multiply": 3},
+    "speaker": "news",
+    "text": "有人自豪地说：生病不用打针吃药，喝假白酒（剧毒）就可以!"
+  },
+  {
+    "id": "baby_viagra",
+    "type": "price",
+    "weight": 100,
+    "goods": "BABY",
+    "effects": {"multiply": 5},
+    "speaker": "news",
+    "text": "医院的秘密报告：“《上海小宝贝》功效甚过伟哥”!"
+  },
+  {
+    "id": "cd_nobel",
+    "type": "price",
+    "weight": 41,
+    "goods": "CD",
+    "effects": {"multiply": 4},
+    "speaker": "news",
+    "text": "文盲说：“2000年诺贝尔文学奖？呸！不如盗版VCD港台片。”"
+  },
+  {
+    "id": "car_policy",
+    "type": "price",
+    "weight": 37,
+    "goods": "CAR",
+    "effects": {"multiply": 3},
+    "speaker": "news",
+    "text": "《北京经济小报》社论：“走私汽车大力推进汽车消费!”"
+  },
+  {
+    "id": "cosmetic_beauty",
+    "type": "price",
+    "weight": 23,
+    "goods": "COSMETIC",
+    "effects": {"multiply": 4},
+    "speaker": "news",
+    "text": "《北京真理报》社论：“提倡爱美，落到实处”，伪劣化妆品大受欢迎!"
+  },
+  {
+    "id": "baby_bookstore",
+    "type": "price",
+    "weight": 37,
+    "goods": "BABY",
+    "effects": {"multiply": 8},
+    "speaker": "news",
+    "text": "8858.com电子书店也不敢卖《上海小宝贝》，黑市一册可卖天价!"
+  },
+  {
+    "id": "xiebufeng",
+    "type": "price",
+    "weight": 15,
+    "goods": "COSMETIC",
+    "effects": {"multiply": 7},
+    "speaker": "xiebufeng",
+    "sprite": "npc xiebufeng",
+    "text": "谢不疯在晚会上说：“我酷!我使用伪劣化妆品!”，伪劣化妆品供不应求!"
+  },
+  {
+    "id": "alcohol_sky",
+    "type": "price",
+    "weight": 40,
+    "goods": "ALCOHOL",
+    "effects": {"multiply": 7},
+    "speaker": "news",
+    "text": "北京有人狂饮山西假酒，可以卖出天价!"
+  },
+  {
+    "id": "phone_job",
+    "type": "price",
+    "weight": 29,
+    "goods": "PHONES",
+    "effects": {"multiply": 7},
+    "speaker": "news",
+    "text": "北京的大学生们开始找工作，水货手机大受欢迎！"
+  },
+  {
+    "id": "car_rich",
+    "type": "price",
+    "weight": 35,
+    "goods": "CAR",
+    "effects": {"multiply": 8},
+    "speaker": "news",
+    "text": "北京的富人疯狂地购买走私汽车！价格狂升!"
+  },
+  {
+    "id": "cigarette_flood",
+    "type": "price",
+    "weight": 17,
+    "goods": "CIGARETTE",
+    "effects": {"divide": 8},
+    "speaker": "news",
+    "text": "市场上充斥着来自福建的走私香烟!"
+  },
+  {
+    "id": "toy_dump",
+    "type": "price",
+    "weight": 24,
+    "goods": "TOY",
+    "effects": {"divide": 5},
+    "speaker": "news",
+    "text": "北京的孩子们都忙于上网学习，进口玩具没人愿意买。"
+  },
+  {
+    "id": "cd_zhongguancun",
+    "type": "price",
+    "weight": 18,
+    "goods": "CD",
+    "effects": {"divide": 8},
+    "speaker": "news",
+    "text": "盗版业十分兴旺，“中国硅谷”——中关村全是卖盗版VCD的村姑!"
+  },
+  {
+    "id": "gift_cars",
+    "type": "goods",
+    "weight": 160,
+    "goods": "CAR",
+    "effects": {"add": 2},
+    "speaker": "me",
+    "text": "厦门的老同学资助俺两部走私汽车！发了！！"
+  },
+  {
+    "id": "gift_cigs",
+    "type": "goods",
+    "weight": 45,
+    "goods": "CIGARETTE",
+    "effects": {"add": 6},
+    "speaker": "me",
+    "text": "工商局扫荡后，俺在黑暗角落里发现了老乡丢失的进口香烟。"
+  },
+  {
+    "id": "gift_alcohol",
+    "type": "goods",
+    "weight": 35,
+    "goods": "ALCOHOL",
+    "effects": {"add": 4},
+    "speaker": "me",
+    "text": "俺老乡回家前把一些山西假白酒（剧毒）给俺!"
+  },
+  {
+    "id": "chief_phone",
+    "type": "goods",
+    "weight": 140,
+    "goods": "PHONES",
+    "effects": {"add": 1},
+    "speaker": "chief",
+    "sprite": "npc chief",
+    "text": "媒体报道：又有日本出口到中国的产品出事了! 出事后日本人死不认帐,拒绝赔偿。村长得知此消息，托人把他用的水货手机（无任何厂商标识）硬卖给您，收您2500元。"
+  },
+  {
+    "id": "thugs",
+    "type": "health",
+    "weight": 117,
+    "effects": {"health": -3},
+    "sfx": "kill.wav",
+    "text": "大街上两个流氓打了俺!"
+  },
+  {
+    "id": "blackjack",
+    "type": "health",
+    "weight": 157,
+    "effects": {"health": -20},
+    "sfx": "death.wav",
+    "text": "俺在过街地道被人打了蒙棍! "
+  },
+  {
+    "id": "aic_chase",
+    "type": "health",
+    "weight": 21,
+    "effects": {"health": -1},
+    "sfx": "dog.wav",
+    "text": "工商局的追俺超过三个胡同。 "
+  },
+  {
+    "id": "traffic",
+    "type": "health",
+    "weight": 100,
+    "effects": {"health": -1},
+    "sfx": "harley.wav",
+    "text": "北京拥挤的交通让俺心焦! "
+  },
+  {
+    "id": "minibus",
+    "type": "health",
+    "weight": 35,
+    "effects": {"health": -1},
+    "sfx": "hit.wav",
+    "text": "开小巴的打俺一耳光!"
+  },
+  {
+    "id": "migrants",
+    "type": "health",
+    "weight": 313,
+    "effects": {"health": -10},
+    "sfx": "flee.wav",
+    "text": "一群民工打了俺!"
+  },
+  {
+    "id": "brick",
+    "type": "health",
+    "weight": 120,
+    "effects": {"health": -5},
+    "sfx": "death.wav",
+    "text": "附近胡同的一个小青年砸俺一砖头!"
+  },
+  {
+    "id": "fake_guard",
+    "type": "health",
+    "weight": 29,
+    "effects": {"health": -3},
+    "sfx": "el.wav",
+    "text": "附近写字楼一个假保安用电棍电击俺!"
+  },
+  {
+    "id": "stinky_river",
+    "type": "health",
+    "weight": 43,
+    "effects": {"health": -1},
+    "sfx": "vomit.wav",
+    "text": "北京臭黑的小河熏着我了! "
+  },
+  {
+    "id": "hukou_mock",
+    "type": "health",
+    "weight": 45,
+    "effects": {"health": -1},
+    "sfx": "level.wav",
+    "text": "守自行车的王大婶嘲笑俺没北京户口!",
+    "conditions": {"max_fame": 59}
+  },
+  {
+    "id": "heatwave",
+    "type": "health",
+    "weight": 48,
+    "effects": {"health": -1},
+    "sfx": "lan.wav",
+    "text": "北京高温40度!俺热..."
+  },
+  {
+    "id": "sandstorm",
+    "type": "health",
+    "weight": 33,
+    "effects": {"health": -1},
+    "sfx": "breath.wav",
+    "text": "申奥添了新风景，北京又来沙尘暴!"
+  },
+  {
+    "id": "beggar",
+    "type": "cash",
+    "weight": 60,
+    "effects": {"ratio": 10},
+    "text": "俺怜悯地铁口扮演成乞丐的老太太。"
+  },
+  {
+    "id": "street_bro",
+    "type": "cash",
+    "weight": 125,
+    "effects": {"ratio": 10},
+    "text": "一个汉子在街头拦住俺：“哥们，给点钱用!”。"
+  },
+  {
+    "id": "bump",
+    "type": "cash",
+    "weight": 100,
+    "effects": {"ratio": 40},
+    "text": "一个大个子碰了俺一下，说：“别挤了!”。"
+  },
+  {
+    "id": "red_armband",
+    "type": "cash",
+    "weight": 65,
+    "effects": {"ratio": 20},
+    "text": "三个带红袖章的老太太揪住俺：“你是外地人?罚款!”"
+  },
+  {
+    "id": "phone_fee",
+    "type": "bank",
+    "weight": 35,
+    "effects": {"ratio": 15},
+    "text": "两个猛男揪住俺：“交长话附加费、上网费。”"
+  },
+  {
+    "id": "permit_bribe",
+    "type": "bank",
+    "weight": 27,
+    "effects": {"ratio": 10},
+    "text": "副主任说：“办经商证?晚上不要去我家给我送钱哦。”"
+  },
+  {
+    "id": "oxygen_bar",
+    "type": "cash",
+    "weight": 40,
+    "effects": {"ratio": 5},
+    "text": "北京空气污染得厉害,俺去氧吧吸氧..."
+  },
+  {
+    "id": "beat_day10",
+    "type": "story",
+    "weight": 1,
+    "once": true,
+    "speaker": "chief",
+    "sprite": "npc chief",
+    "conditions": {"exact_day": 10},
+    "text": "村长来电话：“铁牛，十天了，利息可没睡着。别在北京花天酒地。”",
+    "variants": [
+      {"text": "村长在电话里骂：“你欠那么多，老乡们已经摩拳擦掌了！”", "speaker": "chief"},
+      {"text": "村长难得客气：“听说你还了钱？家乡父老等你衣锦还乡。”", "speaker": "chief"}
+    ]
+  },
+  {
+    "id": "beat_day20",
+    "type": "story",
+    "weight": 1,
+    "once": true,
+    "speaker": "me",
+    "conditions": {"exact_day": 20},
+    "text": "半个月倒过去了。北京的风把俺的口音刮淡了一点，债单却更厚了。",
+    "variants": [
+      {"text": "二十天了，债像雪球。俺开始躲着老乡的电话。", "speaker": "me"},
+      {"text": "二十天，债还清了。俺站在地铁口，忽然不知道下一步要倒什么。", "speaker": "me"}
+    ]
+  },
+  {
+    "id": "beat_day30",
+    "type": "story",
+    "weight": 1,
+    "once": true,
+    "speaker": "chief",
+    "sprite": "npc chief",
+    "conditions": {"exact_day": 30},
+    "text": "村长说：“再给你十天。过期不候，北京的路也能把人埋了。”",
+    "variants": [
+      {"text": "村长把话放得很硬：“十天内不见钱，就让人来接你回村——横着接。”", "speaker": "chief"},
+      {"text": "村长在电话里笑出褶子：“铁牛有出息。记得给家乡捐所小学。”", "speaker": "chief"}
+    ]
+  }
+]
