@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/images/
+public/audio/
+public/events.json
+public/SourceHanSansLite.ttf
+public/main_menu.png

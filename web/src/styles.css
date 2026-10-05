@@ -1,0 +1,208 @@
+:root {
+  --gold: #d4a017;
+  --paper: #f4ead4;
+  --ink: #120e0a;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0a0806;
+  font-family: "SourceHan", "PingFang SC", sans-serif;
+  color: var(--paper);
+  user-select: none;
+}
+
+#letterbox {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+#stage {
+  position: relative;
+  width: min(100vw, calc(100vh * 16 / 9));
+  height: min(100vh, calc(100vw * 9 / 16));
+  overflow: hidden;
+  background: #1a1612;
+}
+
+#bg, #hero, #npc, #prop {
+  position: absolute;
+  pointer-events: none;
+}
+#bg {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#hero, #npc {
+  height: 78%;
+  bottom: 8%;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 8px 18px #0008);
+}
+#hero { left: 0; width: 38%; }
+#npc { right: 0; width: 38%; }
+#prop {
+  left: 50%;
+  top: 38%;
+  width: 22%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
+#hud {
+  position: absolute;
+  top: 1.4%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #120e0acc;
+  border: 1px solid #d4a01755;
+  padding: 0.35em 1em;
+  font-size: clamp(11px, 1.6vw, 16px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6em 1em;
+  white-space: nowrap;
+  max-width: 96%;
+  z-index: 4;
+}
+#hud .debt { color: #e07070; }
+#hud .hp { color: #8dcc6a; }
+#hud .loc { color: #ffe08a; }
+
+#dialogue {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 3%;
+  background: #120e0add;
+  border: 1px solid #d4a01788;
+  text-align: left;
+  color: var(--paper);
+  padding: 0.8em 1.1em 1em;
+  cursor: pointer;
+  z-index: 5;
+}
+#speaker {
+  color: var(--gold);
+  font-size: clamp(13px, 1.8vw, 18px);
+  margin-bottom: 0.3em;
+}
+#line {
+  font-size: clamp(14px, 2.1vw, 20px);
+  line-height: 1.45;
+  min-height: 2.6em;
+}
+
+#choices {
+  position: absolute;
+  left: 28%;
+  right: 6%;
+  bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.28em;
+  z-index: 6;
+  max-height: 58%;
+  overflow: auto;
+}
+#choices button, #title button, .chip, .qty-btn {
+  font-family: inherit;
+  background: #1a1612ee;
+  color: var(--paper);
+  border: 1px solid #d4a01766;
+  padding: 0.4em 0.7em;
+  cursor: pointer;
+  font-size: clamp(12px, 1.7vw, 16px);
+}
+#choices button:hover, #title button:hover, .chip:hover {
+  background: #5a4020ee;
+  border-color: var(--gold);
+}
+#choices .caption {
+  text-align: center;
+  color: var(--gold);
+  margin-bottom: 0.3em;
+  font-size: clamp(13px, 1.8vw, 18px);
+}
+
+#overlay {
+  position: absolute;
+  inset: 0;
+  background: #0006;
+  z-index: 7;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 4% 3% 14%;
+}
+#overlay .panel {
+  background: #120e0aee;
+  border: 1px solid #d4a01766;
+  padding: 1em;
+  width: min(96%, 1100px);
+  max-height: 78%;
+  overflow: auto;
+}
+#overlay h2 {
+  margin: 0 0 0.6em;
+  color: var(--gold);
+  font-size: clamp(16px, 2.2vw, 22px);
+  font-weight: 600;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  justify-content: center;
+}
+.card {
+  width: 150px;
+  background: #1a1612;
+  border: 1px solid #d4a01744;
+  padding: 0.5em;
+  cursor: pointer;
+  color: var(--paper);
+  text-align: center;
+  font-family: inherit;
+}
+.card img { width: 100%; height: 90px; object-fit: cover; }
+.card:hover { border-color: var(--gold); }
+.map-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.35em 0 0.7em;
+  align-items: center;
+}
+.map-row .lab { width: 3em; color: #c8bca8; font-size: 0.9em; }
+.qty-row { display: flex; gap: 0.6em; align-items: center; margin: 0.8em 0; }
+
+#title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 12%;
+  background: linear-gradient(#0000, #120e0acc 55%);
+  z-index: 8;
+}
+#title h1 {
+  margin: 0 0 0.3em;
+  font-size: clamp(28px, 5vw, 52px);
+  color: var(--gold);
+  font-weight: 600;
+}
+#title p { margin: 0 0 1.2em; color: var(--paper); }
+#title button { min-width: 10em; margin: 0.25em; }
+
+[hidden] { display: none !important; }

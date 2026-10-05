@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>北京浮生记</title>
+    <style>
+      @font-face {
+        font-family: "SourceHan";
+        src: url("SourceHanSansLite.ttf") format("truetype");
+        font-display: swap;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="letterbox">
+      <div id="stage">
+        <img id="bg" alt="" />
+        <img id="hero" alt="" />
+        <img id="npc" alt="" />
+        <img id="prop" alt="" />
+        <div id="hud" hidden></div>
+        <div id="overlay" hidden></div>
+        <div id="choices" hidden></div>
+        <button type="button" id="dialogue" hidden>
+          <div id="speaker"></div>
+          <div id="line"></div>
+        </button>
+        <div id="title" hidden>
+          <h1>北京浮生记</h1>
+          <p>四十天，一座城，一笔债。</p>
+          <button type="button" id="btn-start">开始游戏</button>
+          <button type="button" id="btn-continue" hidden>继续</button>
+          <button type="button" id="btn-about">关于</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

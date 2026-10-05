@@ -14,6 +14,16 @@ Windows 解压后运行 `beijing_fushengji.exe`。macOS 未公证，第一次请
 
 源码即本仓库，满足 GPL-2.0 的对应源码义务。打包步骤见 `docs/RELEASE.md`。
 
+## 网页版
+
+第二轮重构在 `web/`（Vite + TypeScript），浏览器可玩：
+
+```bash
+cd web && npm install && npm run dev
+```
+
+正式页：https://moonvaly.github.io/beijing-fushengji/
+
 ## 运行
 
 需要本机 [Ren'Py 8.5.0 SDK](https://www.renpy.org/latest.html)，默认路径：

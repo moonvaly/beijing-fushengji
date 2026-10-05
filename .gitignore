@@ -13,4 +13,11 @@ beijing_fushengji/save_dump.txt
 beijing_fushengji/game/**/*.bak
 tools/assets/_download/
 tools/assets/job_state.json
+web/node_modules/
+web/dist/
+web/public/images/
+web/public/audio/
+web/public/events.json
+web/public/SourceHanSansLite.ttf
+web/public/main_menu.png
 .DS_Store
